@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 16px;
+    background-color: rgb(250,0,0);
+}
+
+#header-nav {
+    background-color:black;
+    width: 100%;
+    margin: 0px;
+    border: 0;
+}
+
+.navbar-brand {
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #222;
+    margin: 1vw 0vw 0vw 2vw !important;
+    color: rgb(255,0,0) !important;
+}
+
+#myNavbar ul li a {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+nav li a:hover{
+background-color: white !important;
+}
+
+.navbar-default .navbar-toggle{
+    border-color:rgb(250,0,0);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:white;
+}
+ .navbar-default .navbar-toggle .icon-bar{
+    background-color:rgb(250,0,0);
+ }
+
+
+.heading {
+    text-align: center;
+    color:white;
+}
+
+.glyphicon {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    text-align: center;
+}
+
+#para {
+    background-color:antiquewhite;
+    margin-bottom: 4vw;
+}
+
