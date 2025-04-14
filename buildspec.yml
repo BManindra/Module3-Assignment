@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Nothing to install for HTML
+  build:
+    commands:
+      - echo No actual build, just copying files
+  post_build:
+    commands:
+      - echo Build completed at `date`
+artifacts:
+  files:
+    - '**/*'
